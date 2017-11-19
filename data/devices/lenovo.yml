@@ -584,17 +584,17 @@
       - /dev/block/mmcblk0p23
       - /dev/block/bootdevice/by-name/system
     data:
+      - /dev/block/bootdevice/by-name/userdata    
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/userdata
       - /dev/block/mmcblk0p30
-      - /dev/block/bootdevice/by-name/userdata
     cache:
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/cache
       - /dev/block/mmcblk0p25
       - /dev/block/bootdevice/by-name/cache
     boot:
+      - /dev/block/bootdevice/by-name/boot
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/boot
       - /dev/block/mmcblk0p22
-      - /dev/block/bootdevice/by-name/boot
     recovery:
       - /dev/block/platform/soc.0/7824900.sdhci/by-name/recovery
       - /dev/block/mmcblk0p26
