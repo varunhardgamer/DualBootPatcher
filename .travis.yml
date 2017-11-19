@@ -49,13 +49,9 @@ script:
   - cd ${TRAVIS_BUILD_DIR}/DualBootPatcher/build/
   # Build APK
   - cmake .. -DMBP_BUILD_TARGET=android -DMBP_BUILD_TYPE=debug
-  - 2>/dev/null 1>&2 make -j16
-  - rm -rf assets && cpack -G TXZ
-  - 2>/dev/null 1>&2 make apk -j16
-  # Build Utilities.zip
-  - 2>/dev/null 1>&2 make android-system_armeabi-v7a -j16
-  - 2>/dev/null 1>&2 make -C data/devices -j16
-  - ./utilities/create.sh
+  - make -j16
+  - sudo cpack -G TXZ
+  - make apk -j16
   - cd --
 after_success:
   - export TRAVIS_CURRENT_DATE=$(date +"%d%m%y-%Hh%Mm%Ss")
