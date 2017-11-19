@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/varunhardgamer/DualBootPatcher/badge/icon)](https://travis-ci.org/varunhardgamer/DualBootPatcher)
+[![Build Status](https://travis-ci.org/varunhardgamer/DualBootPatcher.svg?branch=master)](https://travis-ci.org/varunhardgamer/DualBootPatcher)
 
 DualBootPatcher
 ===============
