@@ -1,4 +1,4 @@
-[![Build Status](https://jenkins.noobdev.io/job/DualBootPatcher_Master/badge/icon)](https://jenkins.noobdev.io/job/DualBootPatcher_Master/)
+[![Build Status](https://travis-ci.org/varunhardgamer/DualBootPatcher/badge/icon)](https://travis-ci.org/varunhardgamer/DualBootPatcher)
 
 DualBootPatcher
 ===============
